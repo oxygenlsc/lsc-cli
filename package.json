@@ -1,0 +1,33 @@
+{
+  "name": "og",
+  "version": "1.0.0",
+  "description": "",
+  "bin": "/bin/lsc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oxygenlsc/lsc-cli.git"
+  },
+  "author": "lsc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oxygenlsc/lsc-cli/issues"
+  },
+  "homepage": "https://github.com/oxygenlsc/lsc-cli#readme",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "chalk": "^4.1.0",
+    "commander": "^9.2.0",
+    "cross-spawn": "^7.0.3",
+    "download-git-repo": "^3.0.2",
+    "ejs": "^3.1.7",
+    "figlet": "^1.5.2",
+    "fs-extra": "^10.1.0",
+    "git-down-repo": "^2.4.3",
+    "inquirer": "^8.2.2",
+    "ora": "^5.0.0"
+  },
+  "devDependencies": {}
+}
