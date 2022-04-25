@@ -1,20 +1,31 @@
 {
-  "name": "oxygen",
+  "name": "oxygen-cli",
   "version": "1.0.0",
   "description": "",
-  "bin": "/bin/lsc.js",
+  "bin": {
+    "og": "./bin/cli.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "files": [
+    "bin",
+    "lib"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/oxygenlsc/lsc-cli.git"
   },
-  "author": "lsc",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/oxygenlsc/lsc-cli/issues"
+  "author": {
+    "name": "oxygen",
+    "email": "1260211231@qq.com"
   },
+  "license": "ISC",
+  "keywords": [
+    "oxygen-cli",
+    "og",
+    "脚手架"
+  ],
   "homepage": "https://github.com/oxygenlsc/lsc-cli#readme",
   "dependencies": {
     "axios": "^0.26.1",
@@ -25,7 +36,6 @@
     "ejs": "^3.1.7",
     "figlet": "^1.5.2",
     "fs-extra": "^10.1.0",
-    "git-down-repo": "^2.4.3",
     "inquirer": "^8.2.2",
     "ora": "^5.0.0"
   },
